@@ -1,5 +1,4 @@
 import Head from 'next/head'
-import Link from 'next/link'
 import Header from '@components/Header'
 import Footer from '@components/Footer'
 
@@ -13,16 +12,9 @@ export default function Home() {
 
       <main>
         <Header title="Welcome to my app!" />
-        
-        <div className="button-container">
-          <Link href="/paymentapproved">
-            <button>Go to Payment Approved</button>
-          </Link>
-
-          <Link href="/paymentdenied">
-            <button>Go to Payment Denied</button>
-          </Link>
-        </div>
+        <p className="description">
+          Get started by editing <code>pages/index.js</code>
+        </p>
       </main>
 
       <Footer />
